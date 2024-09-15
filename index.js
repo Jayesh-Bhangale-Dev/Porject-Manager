@@ -18,7 +18,7 @@ const app = express();
 app.use(
   cors({
     origin: ["http://localhost:3000", "http://localhost:3001", "https://project-management-solutions.web.app"],
-    methods: ["GET", "POST", "DELETE", "PUT"],
+    methods: ["GET", "POST", "DELETE", "PUT", "OPTIONS"],
     credentials: true,
   })
 );
